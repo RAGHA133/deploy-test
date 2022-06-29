@@ -1,2 +1,2 @@
 [java-servers]
-13.59.41.203
+13.59.41.203 ansible_user=ec2-user
