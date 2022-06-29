@@ -18,7 +18,7 @@
       state: started
       enabled: yes
   - name: Installing Docker SDK for python3
-    command: python3 -m pip install --upgrade pip
+    command: yum install python3
 
   - name: stop container
     command: docker stop first-image
